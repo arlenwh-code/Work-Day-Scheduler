@@ -1,0 +1,20 @@
+.cf-1{
+    border: 2px solid #000;
+    height: 300px;
+}
+.title{
+font-size: 4rem;
+}
+.row{
+    border: 2px solid #000;
+    height: 100px;
+}
+
+.col{
+    border: 2px solid #000;
+    height: 100px;
+}
+
+.save-btn{
+    background-color: aqua;
+}
