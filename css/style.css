@@ -13,6 +13,50 @@ margin-top: 5px;
     text-align: center;
     
 }
+ 
+ul{
+    position: absolute;
+    top: 265px;
+    right: 100px;
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.present{
+    position: relative;
+    top: 12px;
+    right: 10px;
+    z-index: -1;
+    width: 10px;
+    height: 10px;
+    background-color: #FFEAC9;
+    display: inline-block;
+}
+
+.past{
+    position: relative;
+    top: 12px;
+    right: 10px;
+    z-index: -1;
+    width: 10px;
+    height: 10px;
+    background-color: #66DE93;
+    display: inline-block;
+}
+
+.future{
+    position: relative;
+    top: 12px;
+    right: 10px;
+    z-index: -1;
+    width: 10px;
+    height: 10px;
+    background-color: #C6B4CE;
+    display: inline-block;
+}
 
 .sub-title{
     font-size: 2rem;

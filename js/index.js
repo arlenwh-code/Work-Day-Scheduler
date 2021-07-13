@@ -24,7 +24,6 @@ var checkTime = function(){
     
     for(var i = 0; i <= 8; i++){
         $(time[i]).text(m.hour(scheduleTime[i]).format("hh a"));
-        
 
         if ($(time[i]).text() === moment().format('hh a')){
             $(toDo[i]).css("background-color", "#FFEAC9");
