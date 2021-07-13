@@ -17,7 +17,7 @@ var currentHr = m.hour();
 var scheduleTime = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 var hours = ['hour-1', 'hour-2', 'hour-3', 'hour-4', 'hour-5', 'hour-6', 'hour-7', 'hour-8', 'hour-9'];
 var saveBtn = ['.save-btn-1', '.save-btn-2', '.save-btn-3', '.save-btn-4', '.save-btn-5', '.save-btn-6', '.save-btn-7', '.save-btn-8', '.save-btn-9'];
-console.log(moment().hour(currentHr) > moment().hour(9));
+
 
 $('.current-time').text(moment().format("dddd MMMM DD"));
 
