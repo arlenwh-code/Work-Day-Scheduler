@@ -1,20 +1,51 @@
 .cf-1{
-    border: 2px solid #000;
+    
     height: 300px;
 }
 .title{
-font-size: 4rem;
+    font-size: 4rem;
+    text-align: center;
 }
+
+.sub-title{
+    font-size: 2rem;
+}
+
+.current-time{
+    font-size: 1.5rem;
+}
+
 .row{
-    border: 2px solid #000;
+    
     height: 100px;
+}
+
+.timeBorder {
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.save-btn-1, .save-btn-2, .save-btn-3, .save-btn-4, .save-btn-5, .save-btn-6, .save-btn-7, .save-btn-8, .save-btn-9{
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF616D;
 }
 
 .col{
-    border: 2px solid #000;
+    
     height: 100px;
 }
 
-.save-btn{
-    background-color: aqua;
+
+
+.section{
+    margin-bottom: 5px;
+}
+
+.image{
+    width: 35px;
+    height: 35px;
 }
