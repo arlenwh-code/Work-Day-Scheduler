@@ -1,10 +1,17 @@
 .cf-1{
     
     height: 300px;
+    border-bottom: 5px solid #000;
 }
+
+.cf-2{
+margin-top: 5px;
+}
+
 .title{
     font-size: 4rem;
     text-align: center;
+    
 }
 
 .sub-title{
