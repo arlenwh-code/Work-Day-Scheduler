@@ -15,8 +15,6 @@ var time = ['.time-1','.time-2', '.time-3', '.time-4', '.time-5', '.time-6', '.t
 var toDo = ['.to-do-1', '.to-do-2', '.to-do-3', '.to-do-4', '.to-do-5', '.to-do-6', '.to-do-7', '.to-do-8', '.to-do-9'];
 var currentHr = m.hour();
 var scheduleTime = [9, 10, 11, 12, 13, 14, 15, 16, 17];
-var hours = ['hour-1', 'hour-2', 'hour-3', 'hour-4', 'hour-5', 'hour-6', 'hour-7', 'hour-8', 'hour-9'];
-var saveBtn = ['.save-btn-1', '.save-btn-2', '.save-btn-3', '.save-btn-4', '.save-btn-5', '.save-btn-6', '.save-btn-7', '.save-btn-8', '.save-btn-9'];
 
 
 $('.current-time').text(moment().format("dddd MMMM DD"));
